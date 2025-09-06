@@ -4,6 +4,8 @@
 
 A comprehensive desktop application for analyzing therapeutic session transcripts using advanced NLP techniques and interactive visualizations.
 
+https://github.com/user-attachments/assets/abd1acb7-e356-48e1-9713-85683e9f8ac3
+
 ## Features
 
 ### 🏠 Home Section
@@ -72,8 +74,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-3.5 **Download the model.safetensors file from [here] (https://doi.org/10.5281/zenodo.17058629)
- Add the file under the folder of Model
+3.5 **Download the Custom AI Model**
+ - The file **model.safetensors** is [here](https://doi.org/10.5281/zenodo.17058629)
+ - Please download it and save it under the folder 'src/Model/' 
  
 4. **Run the application**
 ```bash
@@ -152,7 +155,7 @@ The application includes a custom therapeutic BERT model trained specifically fo
 
 We generated a dataset and model that can be found in:
 - [Dataset](https://doi.org/10.5281/zenodo.17055509)
-- [Model] (https://doi.org/10.5281/zenodo.17058629) fine-tuned on DistilBERT base multilingual (cased) (Sanh et al., 2019) 
+- [Model](https://doi.org/10.5281/zenodo.17058629) fine-tuned on DistilBERT base multilingual (cased) (Sanh et al., 2019) 
 
 ## Export Capabilities
 
@@ -185,19 +188,6 @@ We generated a dataset and model that can be found in:
 ## License
 
 MIT License
-
-## Citation
-
-cff-version: 1.2.0
-message: " If you find Psymerique useful for your research or clinical practice, please consider citing it:"
-authors:
-- family-names: "Leon"
-  given-names: "Carlos"
-  orcid: "https://orcid.org/0009-0002-8220-1561"
-title: "Psymetrique"
-version: 0.1.0
-date-released: 2025-09-06
-url: "https://github.com/BarrileteChapin/Psymetrique"
 
 ## References
 
