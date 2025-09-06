@@ -1,0 +1,23 @@
+{
+  "model_type": "TherapeuticBertModel",
+  "base_model": "distilbert-base-multilingual-cased",
+  "languages": [
+    "en",
+    "es",
+    "pt",
+    "fr"
+  ],
+  "tasks": [
+    "speaker_identification",
+    "sentiment_analysis"
+  ],
+  "training_examples": 11270,
+  "final_test_results": {
+    "eval_runtime": 2.5643,
+    "eval_samples_per_second": 584.963,
+    "eval_steps_per_second": 18.329,
+    "epoch": 3.0
+  },
+  "training_completed": "2025-09-04T23:13:44.618959",
+  "model_parameters": 134738694
+}
